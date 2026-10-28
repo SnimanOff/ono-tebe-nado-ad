@@ -210,3 +210,37 @@
   gap: 24px;
   font-size: 20px;
 }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: start;
+  margin-top: 180px;
+  padding: 0 50px 80px;
+}
+
+.footer__address {
+  max-width: 270px;
+}
+
+.footer__menu-list {
+  font-size: 18px;
+  text-align: center;
+  list-style: none;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 48px;
+  justify-self: end;
+  list-style: none;
+}
+
+.footer__social-link {
+  display: block;
+  width: 48px;
+}
